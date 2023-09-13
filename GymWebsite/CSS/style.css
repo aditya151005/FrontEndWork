@@ -1,0 +1,116 @@
+
+/* CSS Reset */
+
+body{
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url('../images/bg.jpg');
+    background-size: cover;
+    color: white;
+    box-sizing: border-box;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top:30px;
+
+}
+
+.mid{
+    display: block;
+    width:50%;
+    margin: 22px auto;
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top:30px;
+    padding: 5px;
+
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-size: 20px;
+}
+
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color:grey;
+    
+}
+
+.left img{
+    width:50px;
+    border-radius:80px;
+    display: block;
+    margin: 4px auto;
+}
+
+.left div{
+    text-align: center;
+    line-height: 23px;
+    font-size: 20px;
+}
+
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 5px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: rgb(176, 17, 17);
+}
+
+.container{
+    border: 2px solid white;
+    margin: 70px 70px;
+    padding: 70x 90px;
+    width:45%;
+    border-radius: 2px;;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 250px;
+    margin: 10px auto;
+    padding: 5px 5px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container button{
+    display: block;
+    width: 43%;
+    margin: 20px auto;
+
+}
